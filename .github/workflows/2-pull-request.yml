@@ -68,7 +68,6 @@ jobs:
             "role_type": "jwt",
             "user_claim": "actor",
             "bound_claims": {
-              # Fill in missing "sub" claim
               "sub": "repo:courtney-snyder/course-vault-github-oidc:pull_request"
             },
             "policies": ["pr-policy"],
